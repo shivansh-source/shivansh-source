@@ -28,8 +28,8 @@ I'm a **Backend Developer** and **Golang Enthusiast** currently diving deep into
 
 
 ## 📬 Let's Connect
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=flat)](https://linkedin.com/)
-[![Gmail](https://img.shields.io/badge/-Email-D14836?logo=gmail&logoColor=white&style=flat)](mailto:your@email.com)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=flat)](https://www.linkedin.com/in/shivansh-sinha-167304307//)
+[![Gmail](https://img.shields.io/badge/-Email-D14836?logo=gmail&logoColor=white&style=flat)](shivansh976053@gmail.com)
 
 ---
 
