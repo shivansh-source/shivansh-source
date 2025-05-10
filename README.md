@@ -1,6 +1,6 @@
 # Hi there 👋, I'm a Developer on a Mission
 
-I'm a **Backend Developer** and **Golang Enthusiast** currently diving deep into:
+👨‍💻 First-Year Developer | Exploring Backend, APIs & Systems:
 - ⚙️ Golang
 - 🗃️ Databases (PostgreSQL, MongoDB)
 - ☁️ Cloud Computing & Deployment (Docker, Kubernetes)
@@ -23,6 +23,8 @@ I'm a **Backend Developer** and **Golang Enthusiast** currently diving deep into
 - 📊 Cricket Match Predictor with ML + Rule Engine
 - 🔐 Authentication System with Golang + JWT
 - 🌐 Scalable URL Shortener (Docker + Redis + Go)
+-
+🚗 Laxmi On Wheels– A car marketing website built during a hackathon, focused on luxury brand styling and elegant UI/UX
 
 
 ## 📬 Let's Connect
