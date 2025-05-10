@@ -1,6 +1,6 @@
-# Hi there 👋, I'm a Developer on a Mission
+#  👨‍💻 First-Year Developer | Exploring Backend, APIs & Systems
 
-👨‍💻 First-Year Developer | Exploring Backend, APIs & Systems:
+I'm a **Backend Developer** and **Golang Enthusiast** currently diving deep into:
 - ⚙️ Golang
 - 🗃️ Databases (PostgreSQL, MongoDB)
 - ☁️ Cloud Computing & Deployment (Docker, Kubernetes)
