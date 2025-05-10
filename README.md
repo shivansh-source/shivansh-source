@@ -5,7 +5,6 @@ I'm a **Backend Developer** and **Golang Enthusiast** currently diving deep into
 - 🗃️ Databases (PostgreSQL, MongoDB)
 - ☁️ Cloud Computing & Deployment (Docker, Kubernetes)
 - 🔐 Authentication & APIs
-- 🎯 Preparing for GSoC and top tech internships (Google, Amazon, Meta...)
 
 ## 🚀 Tech Stack
 ![Go](https://img.shields.io/badge/-Golang-00ADD8?logo=go&logoColor=white&style=flat)
@@ -13,16 +12,18 @@ I'm a **Backend Developer** and **Golang Enthusiast** currently diving deep into
 ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white&style=flat)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=flat)
 ![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?logo=kubernetes&logoColor=white&style=flat)
+![Redis](https://img.shields.io/badge/-Redis-DC382D?logo=redis&logoColor=white&style=flat)
 ![Java](https://img.shields.io/badge/-Java-007396?logo=java&logoColor=white&style=flat)
 
 ## 📈 GitHub Stats
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&hide_title=true&theme=radical)
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=shivansh-source&show_icons=true&hide_title=true&theme=radical)
 
 ## 🔥 Projects & Goals
 - ✨ Real-time Smart Glasses (Hackathon project)
 - 📊 Cricket Match Predictor with ML + Rule Engine
 - 🔐 Authentication System with Golang + JWT
 - 🌐 Scalable URL Shortener (Docker + Redis + Go)
+
 
 ## 📬 Let's Connect
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=flat)](https://linkedin.com/)
