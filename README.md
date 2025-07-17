@@ -16,7 +16,7 @@ I'm a **Backend Developer** and **Golang Enthusiast** currently diving deep into
 ![Java](https://img.shields.io/badge/-Java-007396?logo=java&logoColor=white&style=flat)  
 
 ## 📈 GitHub Stats  
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=shivansh-source&theme=radical)
+https://github-readme-stats.vercel.app/api?username=shivansh-source&show_icons=true&hide_title=true&theme=radical&cache_seconds=60
 
 
 
