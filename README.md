@@ -16,7 +16,8 @@ I'm a **Backend Developer** and **Golang Enthusiast** currently diving deep into
 ![Java](https://img.shields.io/badge/-Java-007396?logo=java&logoColor=white&style=flat)  
 
 ## 📈 GitHub Stats  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shivansh-source&layout=compact&theme=radical)
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=shivansh-source&theme=radical)
+
 
 
 ## 🔥 Projects & Goals  
