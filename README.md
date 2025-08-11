@@ -22,8 +22,7 @@ I'm a **Backend Developer** and **Golang Enthusiast** currently diving deep into
 
 
 ## 🔥 Projects & Goals  
-- ✨ Real-time Smart Glasses (Hackathon project)  
-- 📊 Cricket Match Predictor with ML + Rule Engine  
+- ✨ Real-time Smart Glasses (Hackathon project)   
 - 🔐 Authentication System with Golang + JWT  
 - 🌐 Scalable URL Shortener (Docker + Go + Redis)  
 - 🚗 Laxmi On Wheels – A car marketing website built during a hackathon, focused on luxury brand styling and elegant UI/UX  
@@ -34,4 +33,4 @@ I'm a **Backend Developer** and **Golang Enthusiast** currently diving deep into
 
 ---
 
-_🚧 Currently learning: Advanced Golang, System Design, and prepping for internships._
+
