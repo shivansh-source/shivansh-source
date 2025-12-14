@@ -1,4 +1,6 @@
 # 👨‍💻 First-Year Developer | Exploring Backend, APIs & Systems
+![Profile view counter](komarev.com)
+
 
 I'm a **Backend Developer** and **Golang Enthusiast** currently diving deep into:
 - ⚙️ Golang  
@@ -32,5 +34,6 @@ I'm a **Backend Developer** and **Golang Enthusiast** currently diving deep into
 [![Gmail](https://img.shields.io/badge/-Email-D14836?logo=gmail&logoColor=white&style=flat)](mailto:shivansh976053@gmail.com)  
 
 ---
+
 
 
