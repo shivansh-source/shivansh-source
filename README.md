@@ -1,5 +1,4 @@
 # 👨‍💻 First-Year Developer | Exploring Backend, APIs & Systems
-![Profile view counter](komarev.com)
 
 
 I'm a **Backend Developer** and **Golang Enthusiast** currently diving deep into:
