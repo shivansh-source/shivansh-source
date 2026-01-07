@@ -109,12 +109,9 @@ My long-term goal is to work on **reliable, secure infrastructure software**.
 ---
 
 <p align="center">
-  <sub>Interested in GSoC / LFX internships and long-term open-source collaboration.</sub>
-</p>
-
-<p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer"/>
 </p>
+
 
 
 
