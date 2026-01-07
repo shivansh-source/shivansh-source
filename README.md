@@ -89,8 +89,8 @@ My long-term goal is to work on **reliable, secure infrastructure software**.
 ## 📊 GitHub Activity
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=shivansh-source&show_icons=true&theme=tokyonight&hide_border=true"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shivansh-source&layout=compact&theme=tokyonight&hide_border=true"/>
+  <img height="170" src="https://github-readme-stats-eight-theta.vercel.app/api?username=shivansh-source&show_icons=true&theme=tokyonight&hide_border=true"/>
+  <img height="170" src="https://streak-stats.demolab.com/api/top-langs/?username=shivansh-source&layout=compact&theme=tokyonight&hide_border=true"/>
 </p>
 
 <p align="center">
@@ -114,5 +114,6 @@ My long-term goal is to work on **reliable, secure infrastructure software**.
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer"/>
 </p>
+
 
 
