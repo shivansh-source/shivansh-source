@@ -62,13 +62,6 @@ My long-term goal is to work on **reliable, secure infrastructure software**.
 - Improved **CI pipelines** and developer experience through GitHub Actions automation
 - Contributed documentation visibility improvements aligned with **OpenSSF best practices**
 - Regularly review controller logic and reconcile behavior across clusters
-
-### 🔹 KRO (Kubernetes Resource Orchestrator) — Contributor
-- Working with **CRDs, graph builders, and reconciliation logic**
-- Investigating dependency resolution and dynamic resource evaluation
-- Writing **unit and integration tests** for orchestration workflows
-- Participating in design discussions around correctness and extensibility
-
 ---
 
 ## 🔐 Independent Projects
@@ -111,6 +104,7 @@ My long-term goal is to work on **reliable, secure infrastructure software**.
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer"/>
 </p>
+
 
 
 
