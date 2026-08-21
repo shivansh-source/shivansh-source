@@ -4,8 +4,8 @@
 </p>
 
 <p align="center">
-  <b>Cloud-Native Developer • Open Source Contributor • Go & Kubernetes</b><br/>
-  <sub>Focused on production-grade controllers, testing, and secure automation</sub>
+  <b>Cloud-Native Developer &middot; Open Source Contributor &middot; Go &amp; Kubernetes</b><br/>
+  <sub>Working on production controllers, provider frameworks, and test infrastructure across CNCF projects</sub>
 </p>
 
 <p align="center">
@@ -22,93 +22,61 @@
 
 ---
 
-## 👋 About Me
+## About
 
-I am an engineering student and **cloud-native developer** with a strong interest in **Kubernetes internals, Go-based controllers, and distributed system testing**.
+Founding engineer at **Capmob Financial Services** in Bengaluru, building the backend and infrastructure from scratch for a global digital lending platform &mdash; Go services on AWS ECS Fargate, Terraform-provisioned infrastructure, CodeBuild CI/CD, and observability through CloudWatch and EventBridge.
 
-I actively contribute to **CNCF-aligned open source projects**, where I focus on:
-- understanding large codebases,
-- reproducing issues locally,
-- writing tests that capture real system behavior,
-- and iterating through code review with maintainers.
-
-My long-term goal is to work on **reliable, secure infrastructure software**.
+Outside work I contribute Go and Kubernetes code across CNCF projects &mdash; **Open Cluster Management, kro, KubeStellar, OpenEverest**. The pattern is usually the same: read the code, reproduce the issue, write the test that captures it, iterate with maintainers until it lands.
 
 ---
 
-## 🧠 Technical Focus
+## Technical focus
 
-### Languages
-<p>
-  <img src="https://skillicons.dev/icons?i=go,java,c&theme=dark"/>
-</p>
+**Kubernetes controllers.** controller-runtime reconcile loops, kubebuilder RBAC markers, client-go clientsets and informers, CRD authoring, provider-framework work in OpenEverest v2 (`provider-runtime`, `BackupProvider`, `parametersSchema`/`uiSchema`), and the Open Cluster Management klusterlet-agent surface.
 
-### Cloud-Native & DevOps
-<p>
-  <img src="https://skillicons.dev/icons?i=kubernetes,docker,githubactions,linux&theme=dark"/>
-</p>
+**Testing infrastructure.** Table-driven Go tests, controller-runtime fake client, `httptest`, Ginkgo/Gomega for end-to-end suites, chainsaw for integration testing, envtest, and release-parameterised GitHub Actions workflows for CI.
 
-### Datastores & Tooling
+**Backend and infrastructure.** Go services, PostgreSQL and MySQL, Docker, Helm chart authoring, and cloud infrastructure through Terraform on AWS (ECS Fargate, ECR, ALB, VPC, RDS/Aurora).
+
 <p>
-  <img src="https://skillicons.dev/icons?i=postgresql,mysql,git,vscode&theme=dark"/>
+  <img src="https://skillicons.dev/icons?i=go,kubernetes,docker,githubactions,terraform,aws,postgresql,linux,git&theme=dark"/>
 </p>
 
 ---
 
-## 🌍 Open Source Contributions
+## Open source
 
-### 🔹 KubeStellar (CNCF Sandbox) — Contributor
-- Designed and implemented **end-to-end test workflows** to validate multi-cluster behavior and Argo CD integration
-- Improved **CI pipelines** and developer experience through GitHub Actions automation
-- Contributed documentation visibility improvements aligned with **OpenSSF best practices**
-- Regularly review controller logic and reconcile behavior across clusters
----
+**Open Cluster Management (CNCF).** Added TLS profile configuration to the klusterlet controller in [ocm#1486](https://github.com/open-cluster-management-io/ocm/pull/1486) &mdash; new `TLSMinVersion` and `TLSCipherSuites` fields on `klusterletConfig`, a ConfigMap-driven `populateTLSConfig()` in the reconcile path, flag injection into three agent deployments and updated controller tests. Co-authored a ManifestWorkReplicaSet fix with a maintainer in [ocm#1421](https://github.com/open-cluster-management-io/ocm/pull/1421), moving generated ManifestWorks to `GenerateName`.
 
-## 🔐 Independent Projects
+**kro (CNCF).** Authored [KREP-008](https://github.com/kro-run/kro/pull/933), an accepted enhancement proposal for resource-backed `includeWhen` evaluation, subsequently implemented by a maintainer.
 
-### GenSec — Generative Security Agent
-- Built a **self-healing DevSecOps system** using Go and Kubernetes primitives
-- Integrated multiple security scanners for code, secrets, and container analysis
-- Added LLM-based reasoning to evaluate exploitability and generate remediation patches
-- Implemented CI workflows that automatically open pull requests with validated fixes
+**KubeStellar (CNCF Sandbox).** Merged PRs across `kubestellar/kubestellar`, `kubestellar/kubeflex` and `kubestellar/kubestellar-killercoda`, including a Kubernetes 1.32 platform uplift ([#3726](https://github.com/kubestellar/kubestellar/pull/3726), regenerated client-go clientsets, informers and listers for five CRDs alongside CRD bases, Helm chart and CI workflows) and a release-parameterised end-to-end test workflow in KubeFlex ([#594](https://github.com/kubestellar/kubeflex/pull/594)). Three months as a QA intern on the KubeStellar Console: filed a large volume of bug reports, coverage-gap findings and performance issues; authored `httptest` and WebSocket integration coverage for the agent server in [console#939](https://github.com/kubestellar/console/pull/939).
 
-### NoPass — LLM Security Firewall
-- Designed a runtime security layer for LLM-driven applications
-- Focused on **sandboxing external inputs**, risk scoring, and policy enforcement
-- Emphasized defensive design and reproducible testing
+**OpenEverest (CNCF Sandbox).** Contributed a `BackupProvider` implementation for the ClickHouse provider in [provider-altinity-clickhouse#22](https://github.com/openeverest/provider-altinity-clickhouse/pull/22) &mdash; resolves the v2 `BackupStorage` S3 contract into clickhouse-backup, with kubebuilder RBAC markers and table-driven tests against the controller-runtime fake client. Delivered proxy support for Helm chart hook Jobs across six library templates in [helm-charts#77](https://github.com/openeverest/helm-charts/pull/77) (maintainer-assigned), a values-driven `InstancePreset` catalog for `provider-kubeai` in [#8](https://github.com/openeverest/provider-kubeai/pull/8), and a merged fix for a silently-dead CI check in the core repository ([openeverest#2962](https://github.com/openeverest/openeverest/pull/2962)). Filed bug reports across the core and provider repositories concentrated on install and upgrade correctness &mdash; several closed by maintainers.
 
 ---
 
-## 📊 GitHub Activity
+## GitHub activity
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats-eight-theta.vercel.app/api?username=shivansh-source&show_icons=true&theme=tokyonight&hide_border=true"/>
-  
-  <img height="170" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=shivansh-source&layout=compact&theme=tokyonight&hide_border=true"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=shivansh-source&show_icons=true&theme=tokyonight&hide_border=true"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shivansh-source&layout=compact&theme=tokyonight&hide_border=true"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=shivansh-source&theme=tokyonight&hide_border=true"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shivansh-source&theme=tokyonight&hide_border=true"/>
 </p>
 
 ---
 
-## 📫 Contact
+## Contact
 
-- GitHub: https://github.com/shivansh-source  
-- LinkedIn: https://linkedin.com/in/shivansh-sinha-167304307  
-- Email: shivansh976053@gmail.com  
+- GitHub: [github.com/shivansh-source](https://github.com/shivansh-source)
+- LinkedIn: [linkedin.com/in/shivansh-sinha-167304307](https://linkedin.com/in/shivansh-sinha-167304307)
+- Email: shivansh976053@gmail.com
 
 ---
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer"/>
 </p>
-
-
-
-
-
-
-
-
