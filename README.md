@@ -59,12 +59,16 @@ Outside work I contribute Go and Kubernetes code across CNCF projects &mdash; **
 ## GitHub activity
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=shivansh-source&show_icons=true&theme=tokyonight&hide_border=true"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shivansh-source&layout=compact&theme=tokyonight&hide_border=true"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shivansh-source&theme=tokyonight"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shivansh-source&theme=tokyonight&hide_border=true"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shivansh-source&theme=tokyonight"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shivansh-source&theme=tokyonight"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=shivansh-source&theme=tokyonight&column=6&no-frame=true&margin-w=6"/>
 </p>
 
 ---
