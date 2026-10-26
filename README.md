@@ -24,7 +24,7 @@
 
 ## About
 
-Founding engineer at **Capmob Financial Services** in Bengaluru, building the backend and infrastructure from scratch for a global digital lending platform &mdash; Go services on AWS ECS Fargate, Terraform-provisioned infrastructure, CodeBuild CI/CD, and observability through CloudWatch and EventBridge.
+devops/backend engineer at **Capmob Financial Services** in Bengaluru, building the backend and infrastructure from scratch for a global digital lending platform &mdash; Go services on AWS ECS Fargate, Terraform-provisioned infrastructure, CodeBuild CI/CD, and observability through CloudWatch and EventBridge.
 
 Outside work I contribute Go and Kubernetes code across CNCF projects &mdash; **Open Cluster Management, kro, KubeStellar, OpenEverest**. The pattern is usually the same: read the code, reproduce the issue, write the test that captures it, iterate with maintainers until it lands.
 
