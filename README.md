@@ -24,9 +24,9 @@
 
 ## About
 
-devops/backend engineer at **Capmob Financial Services** in Bengaluru, building the backend and infrastructure from scratch for a global digital lending platform &mdash; Go services on AWS ECS Fargate, Terraform-provisioned infrastructure, CodeBuild CI/CD, and observability through CloudWatch and EventBridge.
+Backend and infrastructure engineer in Bengaluru. As founding engineer at **Capmob Financial Services** (June to Sept. 2026) I built the backend and infrastructure from scratch for a global digital lending platform &mdash; Go services on AWS ECS Fargate, Terraform-provisioned infrastructure, CodeBuild CI/CD that cut deploys from about 45 minutes to under 10, and observability through CloudWatch and EventBridge.
 
-Outside work I contribute Go and Kubernetes code across CNCF projects &mdash; **Open Cluster Management, kro, KubeStellar, OpenEverest**. The pattern is usually the same: read the code, reproduce the issue, write the test that captures it, iterate with maintainers until it lands.
+I contribute Go and Kubernetes code across CNCF projects &mdash; **Open Cluster Management, kro, KubeStellar, OpenEverest** &mdash; with 25 merged PRs so far, and I'm currently building the OpenSearch provider for OpenEverest. The pattern is usually the same: read the code, reproduce the issue, write the test that captures it, iterate with maintainers until it lands.
 
 ---
 
@@ -34,7 +34,7 @@ Outside work I contribute Go and Kubernetes code across CNCF projects &mdash; **
 
 **Kubernetes controllers.** controller-runtime reconcile loops, kubebuilder RBAC markers, client-go clientsets and informers, CRD authoring, provider-framework work in OpenEverest v2 (`provider-runtime`, `BackupProvider`, `parametersSchema`/`uiSchema`), and the Open Cluster Management klusterlet-agent surface.
 
-**Testing infrastructure.** Table-driven Go tests, controller-runtime fake client, `httptest`, Ginkgo/Gomega for end-to-end suites, chainsaw for integration testing, envtest, and release-parameterised GitHub Actions workflows for CI.
+**Testing infrastructure.** Table-driven Go tests, controller-runtime fake client, `httptest`, chainsaw for integration testing, envtest, and release-parameterised GitHub Actions workflows for CI.
 
 **Backend and infrastructure.** Go services, PostgreSQL and MySQL, Docker, Helm chart authoring, and cloud infrastructure through Terraform on AWS (ECS Fargate, ECR, ALB, VPC, RDS/Aurora).
 
@@ -50,13 +50,17 @@ Outside work I contribute Go and Kubernetes code across CNCF projects &mdash; **
 
 **kro (CNCF).** Authored [KREP-008](https://github.com/kro-run/kro/pull/933), an accepted enhancement proposal for resource-backed `includeWhen` evaluation, subsequently implemented by a maintainer.
 
-**KubeStellar (CNCF Sandbox).** Merged PRs across `kubestellar/kubestellar`, `kubestellar/kubeflex` and `kubestellar/kubestellar-killercoda`, including a Kubernetes 1.32 platform uplift ([#3726](https://github.com/kubestellar/kubestellar/pull/3726), regenerated client-go clientsets, informers and listers for five CRDs alongside CRD bases, Helm chart and CI workflows) and a release-parameterised end-to-end test workflow in KubeFlex ([#594](https://github.com/kubestellar/kubeflex/pull/594)). Three months as a QA intern on the KubeStellar Console: filed a large volume of bug reports, coverage-gap findings and performance issues; authored `httptest` and WebSocket integration coverage for the agent server in [console#939](https://github.com/kubestellar/console/pull/939).
+**KubeStellar (CNCF Sandbox).** Merged PRs across `kubestellar/kubestellar`, `kubestellar/kubeflex` and `kubestellar/kubestellar-killercoda`, including a Kubernetes 1.32 platform uplift ([#3726](https://github.com/kubestellar/kubestellar/pull/3726), regenerated client-go clientsets, informers and listers for five CRDs alongside CRD bases, Helm chart and CI workflows) and a release-parameterised end-to-end test workflow in KubeFlex ([#594](https://github.com/kubestellar/kubeflex/pull/594)). Also authored the BindingPolicy and Multi-WEC topology Killercoda tutorials ([killercoda#11](https://github.com/kubestellar/kubestellar-killercoda/pull/11), [#10](https://github.com/kubestellar/kubestellar-killercoda/pull/10)) and fixed `.gitignore` handling for `cmd/console` ([console#1011](https://github.com/kubestellar/console/pull/1011)). Three months as a QA intern on the KubeStellar Console: filed 77 bug reports, coverage-gap findings and performance issues.
 
-**OpenEverest (CNCF Sandbox).** Contributed a `BackupProvider` implementation for the ClickHouse provider in [provider-altinity-clickhouse#22](https://github.com/openeverest/provider-altinity-clickhouse/pull/22) &mdash; resolves the v2 `BackupStorage` S3 contract into clickhouse-backup, with kubebuilder RBAC markers and table-driven tests against the controller-runtime fake client. Delivered proxy support for Helm chart hook Jobs across six library templates in [helm-charts#77](https://github.com/openeverest/helm-charts/pull/77) (maintainer-assigned), a values-driven `InstancePreset` catalog for `provider-kubeai` in [#8](https://github.com/openeverest/provider-kubeai/pull/8), and a merged fix for a silently-dead CI check in the core repository ([openeverest#2962](https://github.com/openeverest/openeverest/pull/2962)). Filed bug reports across the core and provider repositories concentrated on install and upgrade correctness &mdash; several closed by maintainers.
+**OpenEverest (CNCF Sandbox).** Opened end-to-end backup and restore support for the ClickHouse provider in [provider-altinity-clickhouse#22](https://github.com/openeverest/provider-altinity-clickhouse/pull/22) (in review) &mdash; resolves the v2 `BackupStorage` S3 contract into clickhouse-backup, with kubebuilder RBAC markers and table-driven tests against the controller-runtime fake client. Delivered proxy support for Helm chart hook Jobs across six library templates in [helm-charts#77](https://github.com/openeverest/helm-charts/pull/77) (maintainer-assigned), and a merged fix for a silently-dead CI check in the core repository ([openeverest#2962](https://github.com/openeverest/openeverest/pull/2962)). Filed bug reports across the core and provider repositories concentrated on install and upgrade correctness &mdash; several closed by maintainers. **In progress:** the [OpenSearch provider](https://github.com/openeverest/provider-opensearch) (multi-node clusters, S3 snapshot backups and monitoring on the OpenSearch Kubernetes Operator).
 
 ---
 
 ## GitHub activity
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=shivansh-source&theme=tokyonight&hide_border=true"/>
+</p>
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shivansh-source&theme=tokyonight"/>
